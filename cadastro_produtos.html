@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonte e CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Redressed&family=Roboto+Mono&family=Roboto:wght@400;500;700&family=Sansita:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Título -->
+    <title>Cadastramento de Produtos</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>SISTEMA DE CADASTRAMENTO DE PRODUTOS</h1>
+        </header>
+    
+        <section id="form">              
+                <div class="cadastro-produto">
+                    <form id="form-produto">                      
+                        <fieldset>
+                            <div class="nome">
+                                <label for="nome-produto">Nome do Produto:</label>
+                                <input type="text" name="nome-produto" id="nomeProduto">
+                             </div>
+                            <label for="cod-produto">Código do Produto:</label>
+                            <input type="text" name="cod-produto" id="codigoProduto">
+                            <label for="qtde-produto">Quantidade do Produto:</label>
+                            <select name="qtde-produto" id="quantidadeProduto">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                            </select>
+                        </fieldset>
+
+                        <div class="buttons">
+                            <button class="button" id="submeterProdutos" type="submit">Cadastrar item</button>
+                            <input class="button" type="reset" value="Limpar">
+                            <button class="button" type="submit">
+                                <a href="index.html">Voltar</a>
+                            </button>
+                        </div>
+                        <p>Itens no estoque: 0</span></p>
+                    </form>  
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="C:\Users\luiza\Desktop\desafio2_hiringcoders/js/produtos.js"></script>
+</body>
+</html>
