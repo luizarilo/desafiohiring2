@@ -1,5 +1,5 @@
 # Desafio 2 - Hiring Coders :boom:
-##Objetivo
+## Objetivo
 
  - Criar um sistema de e-commerce para gestão de cadastro e inventário de produtos e dados de clientes
 
@@ -15,7 +15,7 @@
 
 ## Quais funções possui o site?
 
-###Inicialmente é apresentado ao usuário as opções de cadastro de clientes ou de produtos.
+### Inicialmente é apresentado ao usuário as opções de cadastro de clientes ou de produtos.
 
 ### Cadastro de clientes:
  Na parte de cadastro do clientes é pedido alguns dados para a realização de cadastro, tais como:
